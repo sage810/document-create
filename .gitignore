@@ -1,0 +1,87 @@
+# ==============================
+# 키, 비밀번호, 인증 정보
+# ==============================
+
+# 환경변수 파일 (값을 비운 예시 파일만 커밋)
+.env
+.env.*
+*.env
+!.env.example
+!.env.sample
+!.env.template
+
+# 비밀 값을 모아 둔 파일과 폴더
+secrets/
+.secrets/
+secrets.*
+secret.*
+*.secret
+*.secrets
+passwords.*
+password.*
+credentials
+credentials.*
+credentials-*
+api_key*
+api-key*
+apikey*
+
+# Google, Firebase 인증 파일
+client_secret*.json
+service-account*.json
+service_account*.json
+*-service-account*.json
+*serviceaccount*.json
+*firebase-adminsdk*.json
+token.json
+tokens.json
+token.pickle
+.clasprc.json
+
+# 개인 키와 인증서
+*.pem
+*.key
+*.p12
+*.pfx
+*.ppk
+*.jks
+*.keystore
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+
+# 도구별 인증 설정
+.npmrc
+.pypirc
+.netrc
+.htpasswd
+.aws/
+.netlify/
+
+# 개인별 로컬 설정
+*.local
+.claude/settings.local.json
+
+# ==============================
+# 운영체제, 임시 파일
+# ==============================
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+*.log
+
+# Office 문서를 열 때 생기는 잠금 파일
+~$*
+
+# ==============================
+# 의존성, 빌드 결과물
+# ==============================
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
