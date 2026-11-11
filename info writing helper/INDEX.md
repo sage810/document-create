@@ -1,0 +1,31 @@
+# info writing helper — 정보 교과세특 작성 도움 자료 목록
+
+정보 교과 세부능력 및 특기사항(교과세특)을 쓰거나 고칠 때 참고하는 자료 모음이다.
+요청을 받으면 이 목록에서 자료를 고르고, 그 자료의 `SKILL.md`(색인)부터 읽는다.
+
+이웃 자료:
+- 수업 활동·발문·평가 활동지 → [middle school info book read](<../middle school info book read/INDEX.md>)
+- 2022 개정 성취기준 원문·교과 역량 → [middle school info curriculum](<../middle school info curriculum/INDEX.md>)
+- 2022 개정 성취수준 A~E(파랑 문장의 재료)·예시 평가 도구 → [middle school info Achivement](<../middle school info Achivement/INDEX.md>)
+- 수업 활동·학생 역할·수업 특성·성장 표현 낱말 모음 → [수업활동-역할-특성-성장-예시.md](<../수업활동-역할-특성-성장-예시.md>)
+- 행발용 태도·역량 키워드 140개(7개 분류) → [태도 및 역량 키워드.md](<../태도 및 역량 키워드.md>)
+
+## 자료 목록
+
+| 폴더 | 자료 | 범위 | 색인 |
+|---|---|---|---|
+| [seteuk-examples](seteuk-examples/SKILL.md) | 교과세특 기재 예시 도움 자료 (교육부·17개 시·도교육청·한국교육과정평가원·한국교원대 종합교육연수원, 2015 개정 교육과정 기준, PDF 216쪽) | p.2~7(자료 안내·4요소 색 구분·목차·총론 핵심역량), p.11(실과·정보 교과역량), p.120~121(중학교 정보 예시 2개), p.194~197(고등학교 정보 2개·인공지능기초 2개) + 교과세특 기재 지침 4문장(사용자 제공, ch05) | [SKILL.md](seteuk-examples/SKILL.md) |
+
+## 자료마다 들어 있는 파일
+
+- `SKILL.md` — 핵심 틀(4요소, 배열, 문장 기술), 장 색인, 용어 색인
+- `patterns.md` — 문장 만드는 법
+- `cheatsheet.md` — 요소 판단 규칙, 수준 사다리, 역량 재료, 2015→2022 대응표
+- `glossary.md` — 용어 정의
+- `chapters/` — 장별 상세 파일
+
+## 자료 추가 규칙
+
+- 새 자료는 `info writing helper/<자료-이름>/` 하위 폴더로 만들고 위 표에 한 줄 추가한다.
+- 폴더 구조와 파일 이름은 seteuk-examples와 같게 맞춘다.
+- 원문 PDF는 넣지 않는다(`.gitignore`가 `*.pdf`를 제외한다).
